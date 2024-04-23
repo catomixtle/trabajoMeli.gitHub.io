@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos y programas</title>
+    <link rel="stylesheet" href="programaciónC20 .css"> <!-- Cambia el nombre del archivo CSS aquí -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <!-- Estilos adicionales si es necesario -->
+    <style>
+          body {
+            background-color: #D1B2FF; /* Morado pastel */
+            font-family: Arial, sans-serif; /* Fuente */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        table {
+            background-color: green; /* Color de fondo de la tabla */
+            width: 100%; /* Ancho completo de la tabla */
+            border-collapse: collapse; /* Colapsar bordes de la tabla */
+        }
+        .slick-carousel img {
+            width: 100%;
+            height: auto; /* Esto mantendrá la proporción de aspecto */
+        }
+        .logo2 {
+            width: 100%; /* Reducir el tamaño a la mitad */
+            height: auto; /* Mantener la proporción de aspecto */
+        }
+        h3, h5, h4, p {
+            border: 1px solid black; /* Esto agrega un borde sólido negro */
+            padding: 10px; /* Esto agrega un poco de espacio entre el texto y el borde */
+        }
+   table a{
+    text-decoration: none;
+   
+  }
+  h1{
+    text-align: center;
+    font-family: cursive
+  }
+  .container1{
+            border: 3px solid green;
+            border-radius: 10px;
+            width:370px;
+            height:200px;
+            background-color: black;
+            display: flex;
+            justify-content: rigth;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <table style="background-color:rgb(210, 255, 228);"> <!-- Cambia el color de fondo de la tabla aquí -->
+       <tr>
+        <td style="padding: 10px 10px;"><a href="programacionCECyTE20.html">------Inicio------</a></td>         
+         <td class="spacer"></td>
+         <td style="padding: 10px 10px;"><a href="especialidades_y_programas.html">Ramas de Programacion</a></td>
+       </tr>
+       <tr>
+        <td class="spacer"></td>
+        <td><img src="logo2.png" alt="logo" class="logo" width="150" height="155"></td>
+        <td class="spacer"></td>
+       </tr>
+       <tr>
+        <td style="padding: 10px 10px;"><a href="evaluacion_y_horarios.html">Evaluacion y Horarios</a></td>         
+        <td class="spacer"></td>
+        <td style="padding: 10px 10px;"><a href="ProgramasBasicos.html">Programas Basicos</a></td>
+       </tr>
+    </table>
+    
+    <div class="container">
+        <h1>Eventos:</h1>
+      <h4> Participación en OFMI Olimpiada Femenil de Informática
+        </h4>
+        <p>Hoy queremos felicitar a nuestra representante en la OFMI Olimpiada Femenil de Informática. Esta competencia implica resolver problemas a través de la programación. Reconocemos su dedicación y perseverancia en la preparación para representarnos. ¡Felicidades y éxito en los resultados!</p>
+          <td><img src="f22.jpg" alt="ofmi1" class="ofmi1" width="370" height="250"></td>
+      <br><br>
+      <h4>Participación en concurso coding cup Lázaro Cárdenas</h4>
+      <p>En hora buena, mil felicidades a nuestro alumno, quien junto con su equipo, obtuvo el PRIMER LUGAR en el concurso Coding Cup Lázaro Cárdenas. ¡¡¡Muchas felicidades!!! Agradecemos el apoyo de todos aquellos que hicieron posible su asistencia y participación. FELICIDADES</p>
+          <td><img src="f18.jpg" alt="lazaro1" class="lazaro1" width="370" height="255"></td>
+      <br><br>
+      <h4>Programación competitiva cada sábado</h4>
+      <p>Seguimos perseverantes en programación competitiva cada sábado, felicidades a los que siguen perseverando y al grupo de trabajo y asesores, que gran equipo!!!</p>
+    </div>
+  
+  
+    <div class="container" style="background-color: lightblue; padding: 30px;">
+        <h1 style="text-align: center;">Imágenes</h1>
+        <div class="slick-carousel">
+            <div><img src="f14.jpg" alt="sabado1"></div>
+            <div><img src="f9.jpg" alt="sabado2"></div>
+            <div><img src="f18.jpg" alt="sabado3"></div>
+        </div>
+    </div>
+    <!-- Scripts necesarios para Slick Carousel -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Configuración del carrusel -->
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 2500, // Cambia la velocidad de transición de las imágenes
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+
+    <div class="container">
+      <h4>Club de robótica en instalaciones del tecnológico</h4>
+      <p>Alumnos de sexto semestre y el club de robótica asistieron a las instalaciones del Tecnológico de Uruapan donde se desarrolla el Primer Torneo de Robótica Code Bots.</p>      
+    </div>
+
+        <div class="container" style="background-color: #EEEEEE; padding: 30px;">
+        <h1 style="text-align: center;">Imágenes</h1>
+        <div class="slick-carousel">
+            <div><img src="f19.jpg" alt="tec2"></div>
+            <div><img src="f21.jpg" alt="tec3"></div>
+        </div>
+    </div>
+    <div class="container">
+
+       <h4>Concurso estatal de creatividad tecnológico</h4>
+       <p>Muchas felicidades a nuestros estudiantes, quienes han obtenido el segundo lugar en el Concurso Estatal de Creatividad Tecnológica con su proyecto Uandani - Traductor Purépecha. Estamos muy orgullosos de ustedes. Extendemos la felicitación a su asesor el Mtro. Enrique Suchiapa.</p>
+           <img src="f23.jpg" alt="juar2" width="370" height="250">
+            <h4>Proyecto multimedia</h4>   
+            <p>Muchas felicidades a nuestros estudiantes que tuvieron una excelente participación en el evento de Proyecto Multimedia sede Michoacán!Todos nuestros proyectos fueron reconocidos. Plata y acreditación para el proyecto "Caras del duelo" de Yatziri Silva. Plata y acreditación para el proyecto "Uandani - Traductor Purépecha" de Óscar Sahagún y Carlos Soto. Bronce - Los sonidos del bosque de Paola Montiel y Roberto Ávila. Bronce - Proyectoce de Isauro Paredes y Alexis Torres. Felicitamos también a sus asesores los profesores Carmelina Navarro y Enrique Suchiapa.</p>
+            <img src="f24.jpg" alt="proyectoM" width="370" height="250">
+           
+   </div>   
+          
+            
+            
+            
+            
+</body>
+</html>
+
+
+
+    <!-- Scripts necesarios para Slick Carousel -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Configuración del carrusel -->
+    <script>
+        $(document).ready(function(){
+            $('.slick-carousel').slick({
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 2500, // Cambia la velocidad de transición de las imágenes
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+<footer>
+    <div class="container1">
+      
+        <ul>
+          <ol> <a href="evaluacion_y_horarios.html">Evaluación y Horarios</a></ol>
+          <ol> <a href="especialidades_y_programas.html">Especialidades de Programación</a></ol>
+          <ol> <a href="ProgramasBasicos.html">Programas Básicos</a></ol>
+          <ol> <a href="eventosProgramacion.html">Eventos de Programación</a></ol>          <ol> <a href="InteligenciasArt.html">Inteligencias Artificiales</a>
+           
+        </ul>
+
+      <a href="https://www.facebook.com/"><img class="red-social" src="fa1.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/"><img class="red-social" src="insta.jpg" alt="Instagram"></a>
+      <a href="https://www.twitter.com/"><img class="red-social" src="twi1.png" alt="Twitter"></a>
+    </div>
+  </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
